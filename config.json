@@ -1,0 +1,21 @@
+{
+  "backend": "comfyui",
+  "comfy_url": "http://127.0.0.1:8188",
+  "comfy_dir": "",
+  "comfy_args": [
+    "--lowvram"
+  ],
+  "model_id": "ixim/Image21-INT4",
+  "dtype": "bfloat16",
+  "offload": "group",
+  "steps": 40,
+  "guidance_scale": 1.0,
+  "max_input_side": 1024,
+  "default_width": 768,
+  "default_height": 1024,
+  "output_dir": "outputs",
+  "host": "127.0.0.1",
+  "port": 7860,
+  "mock": false,
+  "workflow_dir": "workflows"
+}

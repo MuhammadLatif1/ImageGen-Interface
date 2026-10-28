@@ -1,0 +1,30 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+
+# generated / user data
+outputs/*
+!outputs/.gitkeep
+
+# models and big files (never commit)
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# build artifacts
+build/
+dist/
+*.spec.bak
+*.exe
+Output/
+
+# local config overrides
+config.local.json
+.env
